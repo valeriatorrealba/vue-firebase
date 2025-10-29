@@ -69,8 +69,8 @@ onMounted(() => {
   <div class="home-container">
     <div class="container py-5">
       <div class="text-center mb-5">
-        <h1 class="display-4 fw-bold" style="color: var(--treinta-uno-negro); text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">Catálogo de Cursos</h1>
-        <p class="lead" style="color: var(--treinta-uno-negro); font-weight: 500;">Explora nuestra oferta académica inspirada en 31 Minutos</p>
+        <h1 class="display-4 fw-bold" style="color: var(--treinta-uno-blanco); text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">Catálogo de Cursos</h1>
+        <p class="lead" style="color: var(--treinta-uno-blanco); font-weight: 500;">Explora nuestra oferta académica inspirada en 31 Minutos</p>
       </div>
 
       <!-- Loading State -->
@@ -212,7 +212,7 @@ onMounted(() => {
 
 <style scoped>
 .home-container {
-  background: linear-gradient(135deg, var(--treinta-uno-amarillo) 0%, var(--treinta-uno-naranja) 100%);
+  background: #f04c3e;
   min-height: calc(100vh - 56px);
   position: relative;
 }

@@ -1,9 +1,9 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(135deg, var(--treinta-uno-negro) 0%, #2c2c2c 100%); box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background: #01426a; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
     <div class="container-fluid">
       <router-link class="navbar-brand d-flex align-items-center" to="/home">
         <img src="https://i0.wp.com/31minutosoficial.cl/wp-content/uploads/2015/09/cropped-512logo31m-wpicon.png?resize=200%2C200&ssl=1" alt="Logo 31 Minutos" class="navbar-logo me-2"        />
-        <strong style="color: var(--treinta-uno-amarillo) !important;">31 MINUTOS - CURSOS</strong>
+        <strong style="color: var(--treinta-uno-amarillo) !important;">31 MINUTOS OFICIAL</strong>
       </router-link>
       
       <button 
@@ -21,7 +21,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <router-link class="nav-link" to="/home" active-class="active" style="color: var(--treinta-uno-beige) !important;">
+            <router-link class="nav-link" to="/home" active-class="active" style="color: var(--treinta-uno-blanco) !important;">
               Inicio
             </router-link>
           </li>
@@ -134,7 +134,7 @@ export default {
 .nav-link.active {
   color: var(--treinta-uno-amarillo) !important;
   font-weight: bold;
-  background-color: rgba(255, 215, 0, 0.1);
+  background-color: #f04c3e;
   border-radius: 5px;
 }
 </style>

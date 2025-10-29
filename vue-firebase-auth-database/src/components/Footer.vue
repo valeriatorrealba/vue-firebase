@@ -35,7 +35,7 @@
 
 <style scoped>
 .footer {
-  background-color: #1a1a1a;
+  background-color: #01426a;
   color: #f8d13b;
   font-family: 'Poppins', sans-serif;
 }
